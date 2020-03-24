@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEEEEE;
+  }
+  
+  .container {
+    margin: 0 auto; /* centralizando o conteudo no browser */
+    width: 1000px; /* medida fixa */
+  }
+  header h1 {
+    font-size: 3em; /* medida relativa */
+    color: #333;
+    padding: 10px;
+  }
+  
+  header h3 {
+    font-size: 1.5em;
+    color: #333;
+    padding: 20px; /* espaçamento interno do elemento */
+  }
+  
+  .country {
+    width: 31%; /* medida relativa */
+    height: 200px;  /* medida fixa */
+    float: left;  /* flutuando minha caixas  */
+    margin: 10px; /* espaçamento externo das divs */
+    -webkit-filter:grayscale(0%);
+  }
+  
+  .country:hover {
+    background-color: yellow;
+    cursor: pointer; /* alterando o icone do mouse quando passar sobre a div */
+    -webkit-filter:grayscale(100%);
+    transition: 1s;
+    box-shadow: 5px 10px #ffc68a;
+  }
+  
+  .country p {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 7 ;
+    font-weight: bold;
+    color: #fff; 
+    letter-spacing:2px;
+    text-shadow: 4px 4px #0a0909;
+  }
+  
+  .clearfix {
+    clear: both; /* fazendo um reset na nossa flutuação */
+  }
+  
+  .bg-hongkong {
+    background-image: url('../images/hongkong.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-newyork {
+    background-image: url('../images/newyork.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-vancouver {
+    background-image: url('../images/vancouver.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-sanfrancisco {
+    background-image: url('../images/sanfrancisco.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-london {
+    background-image: url('../images/london.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-sãopaulo {
+    background-image: url('../images/sãopaulo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  footer {
+    margin-top: 20px;
+    height: 60px;
+    background-color: #333;
+  
+  }
+  
+  footer p {
+    line-height: 4;
+    text-align: center;
+    color: #eee;
+  }  
